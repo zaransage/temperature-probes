@@ -1,4 +1,4 @@
-# temperature-probes
+# Temperature-probes
 Some simple control scripts and a binary for a USB temp probe to run in Linux.
 
 ## Example Usage:
@@ -18,3 +18,6 @@ oilburner 2016/08/02 00:41:04 Temperature 147.43F 64.12C
 oilburner 2016/08/02 00:51:04 Temperature 146.19F 63.44C
 
 ```
+
+## Known Problems:
+  1. The temperature probes which this binary interacts with doesn't have a special serial number for each USB chip. So more than one probe plugged in doesn't work.
